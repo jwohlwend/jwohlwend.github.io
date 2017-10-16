@@ -1,0 +1,83 @@
+body {
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-weight:300;
+    color: white;
+    background-color: rgb(80, 80, 80);
+}
+
+.img-fluid {
+    max-width: 60%;
+    max-height: 60%;
+}
+
+.navbar{
+    font-size: 18px;
+    background-color: rgb(80, 80, 80);
+    padding:0;
+}
+
+.navbar .container {
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:40px;
+    padding-right:40px;
+    border: 1px solid white;
+}
+
+.content{
+    padding:0;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+section{
+    padding-top:200px;
+    padding-bottom:200px;
+    padding-left:40px;
+    padding-right:40px;
+}
+
+section .btn{
+    font-family: 'Lato:300', Helvetica, sans-serif;
+    margin-top:10px;
+    margin-right: 10px;
+    color: white;
+    background-color: rgb(70, 70, 70);
+}
+
+section .btn:hover{
+    color:rgb(140, 140, 140);
+}
+
+section .btn:focus{
+    color:white;
+    border-color:white;
+}
+
+section h2{
+    font-weight:100;
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+
+section ul p{
+    font-weight:100;
+}
+
+section ul a{
+    color:white;
+    font-weight:300;
+}
+section ul a:hover{
+    color:rgb(140, 140, 140);
+}
+
+section ul a:focus{
+    color:white;
+    border-color:white;
+}
+
+footer{
+    padding-top:170px;
+}
